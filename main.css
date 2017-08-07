@@ -1,7 +1,69 @@
 body {
-  background: #999;
-  font-family: helvetica;
-
+  font-family: arial, sans-serif;
+  margin: 0;
 }
 
-/* This is a comment */
+header {
+  background: #555;
+  padding: 25px 15px 0 15px;
+}
+
+nav h1 {
+  margin: 0;
+  color: white;
+  display: inline;
+}
+
+nav ul {
+  margin: 0;
+  padding-left: 15px;
+  display: inline;
+}
+
+nav ul li {
+  background-color: #323232;
+  color: white;
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px 20px
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0 0 50px;
+  text-align: center;
+  font-family: times;
+}
+
+main {
+  background-image: url(example_image.jpg);
+  background-size: cover;
+  padding: 100px 0 400px;
+}
+
+.col {
+  background-color: #555;
+  border-radius: 5px;
+  color: white;
+  float: left;
+  padding: 1%;
+  margin: 0 .5% 350px .5%;
+  width: 30%;
+  text-align: center;
+}
+
+main p {
+  color: white;
+}
+
+footer {
+  background-color: #555;
+  clear: both;
+  color: white;
+  padding: 10px;
+}
